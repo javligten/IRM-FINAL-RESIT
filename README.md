@@ -5,6 +5,7 @@ For this research we've extracted tweets from both 2013 and 2023. The aim is com
 To calculate the differences between 2013 and 2013 a IRM_FINAL.py Python script was created, which shows you how often each word occurs in each file and compares it to the other spelling for both 2013 and 2023. 
 
 In order to get the data we want we used Karora to extract tweets. The commands we used were consecutively:
+
 zless /net/corpora/twitter2/Tweets/2013/01/20130101\:*.out.gz  | /net/corpora/twitter2/tools/tweet2tab text | grep -E -i -w 'kado|cadeau' > file12013.txt
 
 zless /net/corpora/twitter2/Tweets/2023/01/20230101\:*.out.gz  | /net/corpora/twitter2/tools/tweet2tab text | grep -E -i -w 'kado|cadeau' > file12023.txt
@@ -16,5 +17,7 @@ zless /net/corpora/twitter2/Tweets/2023/01/20230101\:*.out.gz  | /net/corpora/tw
 zless /net/corpora/twitter2/Tweets/2013/01/20130101\:*.out.gz  | /net/corpora/twitter2/tools/tweet2tab text | grep -E -i -w 'nivo|niveau' > file32013.txt
 
 zless /net/corpora/twitter2/Tweets/2023/01/20230101\:*.out.gz  | /net/corpora/twitter2/tools/tweet2tab text | grep -E -i -w 'nivo|niveau' > file32023.txt
+
+You will see that for every word we picked the 1st of January in both 2013 and 2023 and no specific time to avoid having an unknown variable influencing the results.
 
 After having done that, we ran the python script within the same directory as the .txt files.
