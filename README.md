@@ -24,8 +24,13 @@ After having done that, we ran the python script within the same directory as th
 The results should then look like this:
 
 'kado' appears '180' times compared to 'cadeau' '359' (0.3339517625231911, 0.6660482374768089) with a difference of: 179 in file12013.txt
+
 'kado' appears '16' times compared to 'cadeau' '106' (0.13114754098360656, 0.8688524590163934) with a difference of: 90 in file12023.txt
+
 'buro' appears '14' times compared to 'bureau' '178' (0.07291666666666667, 0.9270833333333334) with a difference of: 164 in file22013.txt
+
 'buro' appears '5' times compared to 'bureau' '68' (0.0684931506849315, 0.9315068493150684) with a difference of: 63 in file22023.txt
+
 'nivo' appears '22' times compared to 'niveau' '507' (0.04158790170132325, 0.9584120982986768) with a difference of: 485 in file32013.txt
+
 'nivo' appears '24' times compared to 'niveau' '747' (0.0311284046692607, 0.9688715953307393) with a difference of: 723 in file32023.txt
